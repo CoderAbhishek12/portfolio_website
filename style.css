@@ -1,0 +1,42 @@
+body{
+    font-family: cursive;
+}
+.nav{
+   border: 2px solid pink;
+   background-color: pink;
+   height: 60px;
+   width: 100%;
+   
+}
+label.logo{
+    color: rgb(234, 64, 64);
+    font-size: 35px;
+    line-height:80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+.nav ul{
+    float: right;
+    margin: 20px;
+}
+.nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: -30px 5px;
+}
+.nav ul li {
+    color:  rgb(234, 64, 64);
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+
+}
+.nav ul li:hover{
+    color: black;
+    
+}
+
+.login{
+    border: 2px solid black;
+}
